@@ -123,9 +123,10 @@ position = Vector2(0, 5)
 script = ExtResource("1_7avsp")
 
 [node name="Player" parent="." instance=ExtResource("6_rb6o5")]
-position = Vector2(4305, -772)
+position = Vector2(50, -14)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(-2, 1)
 zoom = Vector2(4, 4)
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
